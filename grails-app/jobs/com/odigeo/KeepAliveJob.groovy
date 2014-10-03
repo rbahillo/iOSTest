@@ -9,7 +9,7 @@ class KeepAliveJob {
 	}
 
     def execute() {
-       def url = "http://arduino-communication.herokuapp.com/"
+       def url = "http://odigeo-iostest.herokuapp.com/flight"
  
 		new URL(url).withReader ("UTF-8") {
 			print "Accesing heroku app" 
