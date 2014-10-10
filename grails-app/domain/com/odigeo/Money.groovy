@@ -6,7 +6,7 @@ class Money {
 	
 	String currency
 	
-	public static List<String> currencies=["USD","EUR","GBP","YEN"]
+	public static List<String> currencies=["USD","EUR","GBP","JPY"]
 
     static constraints = {
     }
