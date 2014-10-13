@@ -45,12 +45,12 @@ class Segment {
 		String departureDateS = sdf.format(departureDate)
 		String arrivalDateS = sdf.format(arrivalDate)
 		
-		String horaSalida = Segment.normalizeTime(Math.abs(random.nextInt()) % 24 +1)
-		String minutoSalida =Segment.normalizeTime(Math.abs( random.nextInt()) % 60 +1)
+		String horaSalida = Segment.normalizeTime(Math.abs(random.nextInt()) % 23 +1)
+		String minutoSalida =Segment.normalizeTime(Math.abs( random.nextInt()) % 59 +1)
 		
 		
-		String horaLlegada = Segment.normalizeTime(Math.abs(random.nextInt()) % 24 +1)
-		String minutoLlegada =Segment.normalizeTime(Math.abs(random.nextInt()) % 60 +1)
+		String horaLlegada = Segment.normalizeTime(Math.abs(random.nextInt()) % 23 +1)
+		String minutoLlegada =Segment.normalizeTime(Math.abs(random.nextInt()) % 59 +1)
 		
 		res.origin=origin
 		res.destiny=destiny
